@@ -1,0 +1,34 @@
+<!DOCTYPE html><html><head>
+    <script src="p5.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="./p5.play.js"></script>
+    <script src="matter.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+    </head>
+    <body>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-database.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use https://firebase.google.com/docs/web/setup#available-libraries -->
+
+        <script>
+            // Your web app's Firebase configuration
+            var firebaseConfig = {
+                apiKey: "AIzaSyDyYsxn1U30ZGE9rske__91pNrfVcOqOhI",
+                authDomain: "c35-form.firebaseapp.com",
+                databaseURL: "https://c35-form.firebaseio.com",
+                projectId: "c35-form",
+                storageBucket: "c35-form.appspot.com",
+                messagingSenderId: "794497950024",
+                appId: "1:794497950024:web:27a0761853965c06f6537d"
+            };
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+        </script>
+
+        <script src="sketch.js"></script>
+    </body></html>
